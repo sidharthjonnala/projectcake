@@ -44,12 +44,13 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         <div class="header-image">
             <?= $this->Html->image('http://cakephp.org/img/logo-cake.png') ?>
             <h1>Get the Ovens Ready</h1>
+            <h1>HOME PAGE</h1>
         </div>
     </header>
     <div id="content">
         <div class="row">
             <div class="columns large-12 ctp-warning checks">
-                Please be aware that this page will not be shown if you turn off debug mode unless you replace src/Template/Pages/home.ctp with your own version.
+                Home Page: Please be aware that this page will not be shown if you turn off debug mode unless you replace src/Template/Pages/home.ctp with your own version.
             </div>
             <?php Debugger::checkSecurityKeys(); ?>
             <div id="url-rewriting-warning" class="columns large-12 url-rewriting checks">
